@@ -23,13 +23,7 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. 
-  - First, I converted the images to grayscale.
-  - Then I blurred this image using a Gaussian Blur.
-  - After blurring the image it was run thorugh a Canny transform function to determin the edges of what could possibly be the lines in the image.
-  - After applying the Canny transform I specified a region of interest by masking the resulting image to limit my selection to the rough area where I expect to find the lane lines.
-  - I then fed the output of the mask to a hough lines function produced a set of solid colored lines on the image where I had specified a region of interest which should indicate the location of the lane lines.
-  - The final step was to use a weighted image function to output the combination of my lane line drawings overlayed onto the original image.
+My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
